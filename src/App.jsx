@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { io } from 'socket.io-client';
 
 // Connect to the backend Socket.IO server
-const socket = io("https://chatroombackend-thqu.onrender.com/");
+const socket = io("https://flaskgamebackend.onrender.com/");
 
 function App() {
   const [username, setUsername] = useState('');
